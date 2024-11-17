@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AdminLogin</title>
+<style>
+	.form{
+		border: 1px solid black;
+		height: 350px;
+		width: 300px;
+		text-align: center;
+		margin-top: 100px;
+		margin-left: 450px;
+		background: transparent;
+		background-color: rgba(0,0,0,0.2);
+		border-radius: 50px;
+	}
+	input{
+		border: none;
+		outline: none;
+		border-bottom: 5px solid white;
+		height: 20px;
+		width: 70%;
+		border-radius: 20px;
+		padding: 5px;
+		margin-top: 30px;
+	}
+	h1{
+        color: white;
+	}
+	span{
+		color: red;
+	}
+	button{
+		background-color: red;
+		color: white;
+		border-radius: 20px;
+		height: 40px;
+		width: 100px;
+		margin-top: 30px;
+		padding: 5px;
+	}
+	button:hover{
+		background-color: aqua;
+		cursor: pointer;
+	}
+</style>
+</head>
+<body>
+<form action="AdminLog" class="form" method="post">
+<h1>Admin <span><u>Login</u></span></h1><br>
+<input type="text" name="uname" placeholder="UserName"><br>
+<input type="password" name="pword" placeholder="Password"><br>
+<button type="submit" value="AdmiLogin">AdminLogin</button>	
+</form>
+</body>
+</html>

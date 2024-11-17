@@ -1,0 +1,40 @@
+# Java-specific files
+*.class
+*.jar
+
+# Logs
+*.log
+logs/
+
+# IDE-specific files
+/.idea/
+/*.iml
+/.vscode/
+/*.project
+/*.classpath
+
+# Build and output directories
+/target/
+/build/
+/out/
+
+# Maven
+/.mvn/
+/pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Sensitive Configuration
+*.properties
+*.env
+config/*.properties
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git-specific files
+/.git/

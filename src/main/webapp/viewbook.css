@@ -1,0 +1,52 @@
+@charset "UTF-8";
+*{
+ margin:0;
+ padding:0;
+}
+table, tr, td, th{
+border:1px solid black;
+border-collapse: collapse;
+align-item: centre;
+}
+table{
+  margin-left: 20px;s
+  height: 150px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  align-item: centre;
+  background-color: skyblue;
+  font-weigth: larger;
+  cursor: pointer;
+}
+tr:hover{
+background-color: blue;
+}
+
+td{
+vertical-align: middle;
+}
+tr{
+ height: 60px;
+ text-align: centre;
+}
+button{
+margin-left:45%;
+height: 50px;
+width: 120px;
+border-radius: 15px;
+
+}
+a{
+text-decoration: none;
+
+}
+button a {
+  font-weight: larger;
+  font-size: 30px;
+  
+}
+button:hover{
+ background-color: yellow;
+}

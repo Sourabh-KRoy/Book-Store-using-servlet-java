@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: aqua;
+	height: 60px;
+	
+}
+.navbar a{
+	padding-left: 20px;
+	font-size: 25px;
+}
+.navbar a:hover{
+	background-color: red;
+	cursor: pointer;
+	
+	border: 1px solid violet;
+	border-radius: 10px;
+}
+.log1 a{
+	margin-right: 10px;
+	font-size: 30px;
+}
+.log1 a:hover{
+	cursor: pointer;
+	background-color: deeppink;
+}
